@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6437E5257F11AF00F64272 /* Fund_Transfer_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6437E4257F11AF00F64272 /* Fund_Transfer_AppApp.swift */; };
+		EE6437E7257F11AF00F64272 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6437E6257F11AF00F64272 /* ContentView.swift */; };
+		EE6437E9257F11B000F64272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6437E8257F11B000F64272 /* Assets.xcassets */; };
+		EE6437EC257F11B000F64272 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6437EB257F11B000F64272 /* Preview Assets.xcassets */; };
+		EE6437F8257F135B00F64272 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6437F7257F135B00F64272 /* Extension.swift */; };
+		EE6437FC257F14A200F64272 /* TopNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6437FB257F14A200F64272 /* TopNavView.swift */; };
+		EE6437FF257F14B100F64272 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6437FE257F14B100F64272 /* TitleView.swift */; };
+		EE643802257F14E100F64272 /* RoundedHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE643801257F14E100F64272 /* RoundedHexagon.swift */; };
+		EE643805257F16A500F64272 /* HexagonParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE643804257F16A500F64272 /* HexagonParameter.swift */; };
+		EE643808257F260400F64272 /* UserHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE643807257F260400F64272 /* UserHexagon.swift */; };
+		EE64380C257F385900F64272 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64380B257F385900F64272 /* HexagonView.swift */; };
+		EE643810257F397200F64272 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64380F257F397200F64272 /* SendView.swift */; };
+		EE643813257F3D5B00F64272 /* DashBorderShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE643812257F3D5B00F64272 /* DashBorderShape.swift */; };
+		EE643819257F4FBA00F64272 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE643818257F4FBA00F64272 /* User.swift */; };
+		EE64381D257F50CC00F64272 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64381C257F50CC00F64272 /* UserManager.swift */; };
+		EE643820257F51E200F64272 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64381F257F51E200F64272 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE6437E1257F11AF00F64272 /* Fund Transfer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fund Transfer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6437E4257F11AF00F64272 /* Fund_Transfer_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fund_Transfer_AppApp.swift; sourceTree = "<group>"; };
+		EE6437E6257F11AF00F64272 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE6437E8257F11B000F64272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6437EB257F11B000F64272 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE6437ED257F11B000F64272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6437F7257F135B00F64272 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EE6437FB257F14A200F64272 /* TopNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavView.swift; sourceTree = "<group>"; };
+		EE6437FE257F14B100F64272 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		EE643801257F14E100F64272 /* RoundedHexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedHexagon.swift; sourceTree = "<group>"; };
+		EE643804257F16A500F64272 /* HexagonParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameter.swift; sourceTree = "<group>"; };
+		EE643807257F260400F64272 /* UserHexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHexagon.swift; sourceTree = "<group>"; };
+		EE64380B257F385900F64272 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		EE64380F257F397200F64272 /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		EE643812257F3D5B00F64272 /* DashBorderShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBorderShape.swift; sourceTree = "<group>"; };
+		EE643818257F4FBA00F64272 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE64381C257F50CC00F64272 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EE64381F257F51E200F64272 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6437DE257F11AF00F64272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6437D8257F11AF00F64272 = {
+			isa = PBXGroup;
+			children = (
+				EE6437E3257F11AF00F64272 /* Fund Transfer App */,
+				EE6437E2257F11AF00F64272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6437E2257F11AF00F64272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6437E1257F11AF00F64272 /* Fund Transfer App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6437E3257F11AF00F64272 /* Fund Transfer App */ = {
+			isa = PBXGroup;
+			children = (
+				EE643816257F4F9900F64272 /* Data */,
+				EE643815257F4F9100F64272 /* Model */,
+				EE643817257F4FA000F64272 /* ViewModel */,
+				EE6437F6257F11CC00F64272 /* View */,
+				EE6437F5257F11C700F64272 /* App */,
+				EE6437F4257F11C100F64272 /* Helper */,
+				EE6437E8257F11B000F64272 /* Assets.xcassets */,
+				EE6437ED257F11B000F64272 /* Info.plist */,
+				EE6437EA257F11B000F64272 /* Preview Content */,
+			);
+			path = "Fund Transfer App";
+			sourceTree = "<group>";
+		};
+		EE6437EA257F11B000F64272 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE6437EB257F11B000F64272 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE6437F4257F11C100F64272 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE6437F7257F135B00F64272 /* Extension.swift */,
+				EE643804257F16A500F64272 /* HexagonParameter.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EE6437F5257F11C700F64272 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE6437E4257F11AF00F64272 /* Fund_Transfer_AppApp.swift */,
+				EE6437E6257F11AF00F64272 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE6437F6257F11CC00F64272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE6437FB257F14A200F64272 /* TopNavView.swift */,
+				EE6437FE257F14B100F64272 /* TitleView.swift */,
+				EE64380B257F385900F64272 /* HexagonView.swift */,
+				EE643801257F14E100F64272 /* RoundedHexagon.swift */,
+				EE643807257F260400F64272 /* UserHexagon.swift */,
+				EE64380F257F397200F64272 /* SendView.swift */,
+				EE643812257F3D5B00F64272 /* DashBorderShape.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE643815257F4F9100F64272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE643818257F4FBA00F64272 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE643816257F4F9900F64272 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE64381F257F51E200F64272 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE643817257F4FA000F64272 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE64381C257F50CC00F64272 /* UserManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6437E0257F11AF00F64272 /* Fund Transfer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6437F0257F11B000F64272 /* Build configuration list for PBXNativeTarget "Fund Transfer App" */;
+			buildPhases = (
+				EE6437DD257F11AF00F64272 /* Sources */,
+				EE6437DE257F11AF00F64272 /* Frameworks */,
+				EE6437DF257F11AF00F64272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fund Transfer App";
+			productName = "Fund Transfer App";
+			productReference = EE6437E1257F11AF00F64272 /* Fund Transfer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6437D9257F11AF00F64272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EE6437E0257F11AF00F64272 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EE6437DC257F11AF00F64272 /* Build configuration list for PBXProject "Fund Transfer App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6437D8257F11AF00F64272;
+			productRefGroup = EE6437E2257F11AF00F64272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6437E0257F11AF00F64272 /* Fund Transfer App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6437DF257F11AF00F64272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6437EC257F11B000F64272 /* Preview Assets.xcassets in Resources */,
+				EE6437E9257F11B000F64272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6437DD257F11AF00F64272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6437F8257F135B00F64272 /* Extension.swift in Sources */,
+				EE6437E7257F11AF00F64272 /* ContentView.swift in Sources */,
+				EE643802257F14E100F64272 /* RoundedHexagon.swift in Sources */,
+				EE64381D257F50CC00F64272 /* UserManager.swift in Sources */,
+				EE6437FC257F14A200F64272 /* TopNavView.swift in Sources */,
+				EE643813257F3D5B00F64272 /* DashBorderShape.swift in Sources */,
+				EE643808257F260400F64272 /* UserHexagon.swift in Sources */,
+				EE643820257F51E200F64272 /* Data.swift in Sources */,
+				EE643805257F16A500F64272 /* HexagonParameter.swift in Sources */,
+				EE6437E5257F11AF00F64272 /* Fund_Transfer_AppApp.swift in Sources */,
+				EE643819257F4FBA00F64272 /* User.swift in Sources */,
+				EE6437FF257F14B100F64272 /* TitleView.swift in Sources */,
+				EE643810257F397200F64272 /* SendView.swift in Sources */,
+				EE64380C257F385900F64272 /* HexagonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE6437EE257F11B000F64272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE6437EF257F11B000F64272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6437F1257F11B000F64272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fund Transfer App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fund Transfer App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Fund-Transfer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6437F2257F11B000F64272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fund Transfer App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fund Transfer App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Fund-Transfer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6437DC257F11AF00F64272 /* Build configuration list for PBXProject "Fund Transfer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6437EE257F11B000F64272 /* Debug */,
+				EE6437EF257F11B000F64272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6437F0257F11B000F64272 /* Build configuration list for PBXNativeTarget "Fund Transfer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6437F1257F11B000F64272 /* Debug */,
+				EE6437F2257F11B000F64272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6437D9257F11AF00F64272 /* Project object */;
+}
